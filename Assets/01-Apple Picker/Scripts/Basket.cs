@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class Basket : MonoBehaviour
 {
@@ -46,6 +47,7 @@ public class Basket : MonoBehaviour
 
           // Increase the score
           scoreCounter.score += 100;
+          HighScore.TRY_SET_HIGH_SCORE(scoreCounter.score);
         }
     }
 }
