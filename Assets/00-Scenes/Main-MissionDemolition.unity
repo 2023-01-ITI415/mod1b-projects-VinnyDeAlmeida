@@ -428,6 +428,7 @@ GameObject:
   - component: {fileID: 792234107}
   - component: {fileID: 792234106}
   - component: {fileID: 792234109}
+  - component: {fileID: 792234110}
   m_Layer: 0
   m_Name: _MainCamera
   m_TagString: MainCamera
@@ -516,6 +517,32 @@ MonoBehaviour:
   easing: 0.05
   minXY: {x: 0, y: 0}
   camZ: 0
+--- !u!114 &792234110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792234105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efde618a8c2e22408e621d1a65757e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uitLevel: {fileID: 1222189336}
+  uitShots: {fileID: 1386758493}
+  castlePos: {x: 50, y: -9.5, z: 0}
+  castles:
+  - {fileID: 3845996144661797225, guid: a7869530a4d0a9443b005786c8000897, type: 3}
+  - {fileID: 3845996144661797225, guid: 1fea0aa36b44fb04598eb34fcd73f98f, type: 3}
+  - {fileID: 3845996144661797225, guid: f875fba8323d8494ebe13fff046bb14f, type: 3}
+  - {fileID: 3845996144661797225, guid: 104b5a9e0185bcd4790c640035a47df5, type: 3}
+  level: 0
+  levelMax: 0
+  shotsTaken: 0
+  castle: {fileID: 0}
+  mode: 0
+  showing: Show Slingshot
 --- !u!1 &854103463
 GameObject:
   m_ObjectHideFlags: 0
