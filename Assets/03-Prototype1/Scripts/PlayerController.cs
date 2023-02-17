@@ -6,10 +6,12 @@ using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
-    public float  speed = 0;
+    public float moveSpeed = 0;
+    public float jumpSpeed = 10;
     public TextMeshProUGUI countText;
     public GameObject winTextObject;
 
+    bool onGround;
     private Rigidbody rb;
     private int count;
     private float movementX;
@@ -46,7 +48,18 @@ public class PlayerController : MonoBehaviour
     {
         Vector2 movement = new Vector2(movementX, movementY);
 
-        rb.AddForce(movement * speed);
+        rb.AddForce(movement * moveSpeed);
+
+        if(Input.GetKeyDown(KeyCode.Space) && onGround)
+        {
+            rb.velocity = new Vector3(rb.velocity.x, jumpSpeed);
+            onGround = false;
+        }
+    }
+
+    void OnCollisionEnter()
+    {
+          onGround = true;
     }
 
     void OnTriggerEnter(Collider other)
@@ -59,4 +72,5 @@ public class PlayerController : MonoBehaviour
             SetCountText();
         }
     }
+
 }
