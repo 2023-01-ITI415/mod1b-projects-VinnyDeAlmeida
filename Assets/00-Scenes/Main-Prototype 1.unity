@@ -256,7 +256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: leftAndRightEdge
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: chanceToChangeDirection
@@ -481,7 +481,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: leftAndRightEdge
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: chanceToChangeDirection
@@ -702,7 +702,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: leftAndRightEdge
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: chanceToChangeDirection
@@ -1101,7 +1101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: leftAndRightEdge
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: chanceToChangeDirection
@@ -1309,7 +1309,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: leftAndRightEdge
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: chanceToChangeDirection
@@ -1604,7 +1604,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: leftAndRightEdge
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: chanceToChangeDirection
@@ -1853,7 +1853,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: leftAndRightEdge
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: chanceToChangeDirection
@@ -1926,7 +1926,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: leftAndRightEdge
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: chanceToChangeDirection
@@ -2399,7 +2399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: leftAndRightEdge
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: chanceToChangeDirection
@@ -2864,7 +2864,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: leftAndRightEdge
-      value: 20
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 7677735625430593322, guid: 475134344e31c1541a7932b9652f140b, type: 3}
       propertyPath: chanceToChangeDirection

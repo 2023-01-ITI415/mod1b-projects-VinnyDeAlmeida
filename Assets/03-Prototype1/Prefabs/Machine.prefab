@@ -129,6 +129,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   blockPrefab: {fileID: 1485685745729309311, guid: d2cca9db211e8b14e86e38c5b81b87f1, type: 3}
   speed: 1
-  leftAndRightEdge: 10
+  leftAndRightEdge: 15
   chanceToChangeDirection: 0.1
   secondsBetweenBlockdrop: 1
