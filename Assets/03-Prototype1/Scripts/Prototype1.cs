@@ -10,7 +10,7 @@ public class Prototype1 : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Block"))
         {
-            SceneManager.LoadScene("Main-Prototype1");
+            SceneManager.LoadScene("Main-Prototype 1");
         }
     }
 }

@@ -21,10 +21,12 @@ public class Machine : MonoBehaviour
     // Rate at which blocks will be instantiated
     public float secondsBetweenBlockdrop = 1f;
 
+    private float centerLine;
+
     // Start is called before the first frame update
     void Start()
     {
-
+      centerLine = this.transform.position.x;
       // Dropping blocks every second
       Invoke("DropBlock", 2f);
 
@@ -49,11 +51,11 @@ public class Machine : MonoBehaviour
         transform.position = pos;
 
         // Changing Direction
-        if (pos.x < -leftAndRightEdge) {
+        if (pos.x < -leftAndRightEdge + centerLine) {
 
           speed = Mathf.Abs(speed); // Move right
 
-        } else if (pos.x > leftAndRightEdge) {
+        } else if (pos.x > leftAndRightEdge + centerLine) {
 
           speed = -Mathf.Abs(speed); // Move left
 
