@@ -38,7 +38,7 @@ public class PlayerController : MonoBehaviour
     void SetCountText()
     {
         countText.text = "Count: " + count.ToString();
-        if(count >= 15)
+        if(count >= 30)
         {
           winTextObject.SetActive(true);
         }
@@ -50,10 +50,18 @@ public class PlayerController : MonoBehaviour
 
         rb.AddForce(movement * moveSpeed);
 
-        if(Input.GetKeyDown(KeyCode.Space) && onGround)
+        if(Input.GetKey(KeyCode.Space) && onGround)
         {
             rb.velocity = new Vector3(rb.velocity.x, jumpSpeed);
             onGround = false;
+        }
+        if(!Input.anyKey && onGround)
+        {
+            rb.constraints = RigidbodyConstraints.FreezePositionX;
+        }
+        else
+        {
+            rb.constraints = RigidbodyConstraints.None;
         }
     }
 
