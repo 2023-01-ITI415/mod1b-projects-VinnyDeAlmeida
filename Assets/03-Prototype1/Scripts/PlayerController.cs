@@ -9,6 +9,7 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed = 0;
     public float jumpSpeed = 10;
     public TextMeshProUGUI countText;
+    public GameObject instructionTextObject;
     public GameObject winTextObject;
 
     bool onGround;
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour
 
         SetCountText();
         winTextObject.SetActive(false);
+        instructionTextObject.SetActive(true);
     }
 
     void OnMove(InputValue movementValue)
